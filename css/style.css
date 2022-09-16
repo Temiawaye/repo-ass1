@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	background-color: black;
+}
+
+section{
+	background-color: white;
+}
+
+header{
+	background-color: red;
+	font-family: 'Pinyon Script', cursive;
+	color: white;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 2px;
+}
+
+.img{
+	background-color: black;
+}
+
+.img > img{
+	width: 1349px;
+}
+
+.menu{
+	font-family: 'Pinyon Script', cursive;
+	text-align: center;
+	font-size: 24px;
+}
+
+.menu > h1{
+	padding-top: 24px;
+}
+
+#table{
+	align-content: center;
+	margin-left: 200px;
+	width: 1000px;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+/*.table{
+	align-content: center;
+	margin-left: 300px;
+}*/
+
+#th{
+	background-color: black;
+	color: white;
+	height: 50px;
+}
+
+.thr0{
+	width: 200px;
+	text-align: center;
+}
+
+.amount{
+	color: red;
+	font-weight: bold;
+	text-align: center;
+}
+
+.sn{
+	text-align: center;
+}
+
+#footer{
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
