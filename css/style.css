@@ -1,6 +1,13 @@
 body{
-	margin: 0;
 	background-color: black;
+	padding-left: 250px;
+	padding-right: 250px;
+	margin: 0;
+}
+
+#mainb {
+	background-color: white;
+	
 }
 
 section{
@@ -18,11 +25,14 @@ header{
 
 .img{
 	background-color: black;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	height: 50vh;
 }
 
-.img > img{
-	width: 1349px;
-}
+/* .img > img{
+	width: 1000px;
+} */
 
 .menu{
 	font-family: 'Pinyon Script', cursive;
@@ -36,10 +46,14 @@ header{
 
 #table{
 	align-content: center;
-	margin-left: 200px;
-	width: 1000px;
+	/* margin-left: 200px; */
+	width: 800px;
 	height: 500px;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
+	/* border-style: solid 1; */
+	margin-left: 24px;
+	margin-bottom: 24px;
+	border-collapse: collapse;
 }
 
 /*.table{
@@ -54,7 +68,7 @@ header{
 }
 
 .thr0{
-	width: 200px;
+	width: 150px;
 	text-align: center;
 }
 
@@ -64,6 +78,9 @@ header{
 	text-align: center;
 }
 
+.middle{
+	padding-left: 20px;
+}
 .sn{
 	text-align: center;
 }
