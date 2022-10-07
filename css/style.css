@@ -7,7 +7,7 @@ body{
 
 #mainb {
 	background-color: white;
-	width: 850;
+	width: 850px;
 	
 }
 
@@ -60,6 +60,9 @@ header{
 	margin-right: auto;
 }
 
+td{
+	border: 1px solid black;
+}
 /*.table{
 	align-content: center;
 	margin-left: 300px;
