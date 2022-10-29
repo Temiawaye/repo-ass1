@@ -5,6 +5,11 @@ body{
 	margin: 0;
 }
 
+main{
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
 #mainb {
 	background-color: white;
 	width: 850px;
